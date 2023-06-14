@@ -1,0 +1,23 @@
+div.row form{
+    display:flex;
+    align-items: center;
+    flex-direction: column  ;
+    
+}
+input , button{
+    margin: 10px;
+    padding: 5px;
+}
+input#InputNome:focus, textarea:focus{
+    border-color: rgb(255, 0, 140) !important;
+}
+input:invalid , textarea:invalid{
+    border-color: red;
+}
+input:valid , textarea:valid{
+    border-color:green;
+}
+
+h1{
+    text-align: center;
+}
